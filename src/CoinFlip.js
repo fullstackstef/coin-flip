@@ -7,8 +7,8 @@ import { choice } from './helpers'
 class CoinFlip extends Component {
     static defaultProps = {
         coins: [
-            { side: 'heads', imgSrc: 'https://tinyurl.com/react-coin-heads-jpg'},
-            { side: 'tails', imgSrc: 'https://tinyurl.com/react-coin-tails-jpg'}
+            { side: 'heads', imgSrc: 'https://upload.wikimedia.org/wikipedia/en/e/e0/Canadian_Dollar_-_obverse.png'},
+            { side: 'tails', imgSrc: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Canadian_Dollar_-_reverse.png/220px-Canadian_Dollar_-_reverse.png'}
         ],
     }
     constructor(props) {
